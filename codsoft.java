@@ -1,7 +1,7 @@
-package ship;
+package task1;
 import java.util.*;
 import java.util.Random;
-public class Ran {
+public class codsoft {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -34,10 +34,14 @@ public class Ran {
 			ran_int=r.nextInt(5);
 			System.out.println("the random number is "+ran_int);
 			count++;
-		if(ran_int==a)
+		if(ran_int!=a)
+		{
+			System.out.println("the guess is wrong");
+		}
+		else
 		{
 			System.out.println("the guess is correct");
-			break;		
+			break;
 		}
 		}
 		}
